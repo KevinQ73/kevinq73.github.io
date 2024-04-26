@@ -8,7 +8,7 @@ function multiplicar() {
   } else {
     // Realizar la operación y redondear hacia abajo
     var resultadoOperacion = Math.floor(((numero * 13362) / 12) + 1991);
-    resultado.textContent = "El keygen resultante es: " + resultadoOperacion;
+    resultado.textContent = "La key resultante es: " + resultadoOperacion;
   }
 }
 
