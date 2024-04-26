@@ -8,7 +8,7 @@ function multiplicar() {
   // Verificar si se ingresó un número válido
   if (isNaN(numero) || numero.length > 4) {
     resultado.textContent = "Por favor, ingrese un número válido de máximo 4 dígitos.";
-    i++;
+    iterator++;
     // Si el último número ingresado también es inválido, mostrar la imagen
     if (iterator >= 2) {
       imagen.style.display = "block";
