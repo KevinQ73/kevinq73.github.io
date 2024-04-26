@@ -44,13 +44,10 @@ p {
   font-size: 20px;
 }
 
-.footer {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.5); /* Fondo del footer semitransparente */
-  color: #fff; /* Texto blanco */
-  text-align: center;
-  padding: 10px 0;
-  transition: background-color 0.5s ease, color 0.5s ease; /* Suavizar la transición del color de fondo y texto */
+/* Estilos para la imagen */
+#imagen {
+  display: none; /* Ocultar la imagen por defecto */
+  max-width: 100%; /* Ancho máximo de la imagen */
+  height: auto; /* Altura automática para mantener la proporción */
+  margin-top: 20px; /* Espacio superior */
 }
