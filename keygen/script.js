@@ -4,11 +4,11 @@ function multiplicar() {
 
   // Verificar si se ingresó un número válido
   if (isNaN(numero) || numero.length > 4) {
-    resultado.textContent = "Por favor, ingrese un número válido de máximo 4 dígitos.";
+    resultado.textContent = "Debe ingresar un valor que no supere los 4 dígitos.";
   } else {
     // Realizar la operación y redondear hacia abajo
     var resultadoOperacion = Math.floor(((numero * 13362) / 12) + 1991);
-    resultado.textContent = "El resultado de la operación es: " + resultadoOperacion;
+    resultado.textContent = "El keygen resultante es: " + resultadoOperacion;
   }
 }
 
