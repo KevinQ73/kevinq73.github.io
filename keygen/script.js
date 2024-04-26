@@ -1,4 +1,4 @@
-var i = 0;
+var iterator = 0;
 
 function multiplicar() {
   var numero = document.getElementById("numeroInput").value;
@@ -10,7 +10,7 @@ function multiplicar() {
     resultado.textContent = "Por favor, ingrese un número válido de máximo 4 dígitos.";
     i++;
     // Si el último número ingresado también es inválido, mostrar la imagen
-    if (i >= 2) {
+    if (iterator >= 2) {
       imagen.style.display = "block";
       resultado.textContent = "Te dije, un número de máximo 4 dígitos.";
     }
@@ -19,7 +19,7 @@ function multiplicar() {
     var resultadoOperacion = Math.floor(((numero * 13362) / 12) + 1991);
     resultado.textContent = "La Key generada es: " + resultadoOperacion;
     imagen.style.display = "none"; // Ocultar la imagen si se ingresa un número válido
-    i = 0;
+    iterator = 0;
   }
 
   ultimoNumero = numero; // Guardar el último número ingresado
