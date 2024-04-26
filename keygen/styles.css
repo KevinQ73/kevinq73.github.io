@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #ccc; /* Texto gris */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('img/matrix-background.gif'); /* Ruta del GIF de fondo */
+    background-size: cover;
+    background-position: center;
+    transition: background 0.5s ease; /* Suavizar la transición del fondo */
+  }
+  
+  .container {
+    text-align: center;
+    background-color: rgba(50, 50, 50, 0.8); /* Fondo gris semitransparente */
+    padding: 20px;
+    border-radius: 10px;
+    transition: background-color 0.5s ease; /* Suavizar la transición del color de fondo */
+  }
+  
+  input[type="text"] {
+    margin: 10px;
+    padding: 8px;
+    font-size: 16px;
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
+    color: #ccc; /* Texto gris en campos de entrada y botones */
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    width: 200px; /* Ancho del campo de entrada */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Suavizar la transición del color de fondo y texto */
+  }
+  
+  input[type="text"]:focus {
+    outline: none; /* Eliminar el contorno al enfocar */
+  }
+  
+  p {
+    font-size: 20px;
+  }
+  
+  .footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo del footer semitransparente */
+    color: #fff; /* Texto blanco */
+    text-align: center;
+    padding: 10px 0;
+    transition: background-color 0.5s ease, color 0.5s ease; /* Suavizar la transición del color de fondo y texto */
+  }
+  
